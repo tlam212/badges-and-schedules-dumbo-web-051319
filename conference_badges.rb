@@ -20,11 +20,11 @@ end
 
 def printer(array)
   badges = batch_badge_creator(array)
-  badges.each_line do |str1|
+  badges.each do |str1|
     puts str1 
   end
   room_assignment = assign_rooms(array)
-  room_assignment.each_line do |str2|
+  room_assignment.each do |str2|
     puts str2
   end
 end
