@@ -18,7 +18,7 @@ def assign_rooms(array)
     str_array
 end
 
-def printer
+def printer(array)
   badges = batch_badge_creator(array)
   badges.each_line do |str1|
     puts str1 
